@@ -1,6 +1,3 @@
-<div align="center">
-      <img width="226" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/51c0517e-e5e6-4a65-a520-9e5a52095fb9">
-
 ## 🌟 MERN Marketplace 🌟
 
 The MERN Marketplace application will allow users to become sellers, who can manage  shops, and add the products they want to sell in each shop. Admin can control functionality of Seller Users who visit MERN Marketplace will be able to search for and browse products they want to buy, and add products to their shopping cart to place an order. we have 3 Order Method.
@@ -494,15 +491,15 @@ This project does not have a mongoDB connection setup. Set up the connection bas
 
 💻 How to run the app locally! 🏃
 
-### STAP-1
-`git clone https://github.com/pattjoshi/Multi_vondor_E_shop.git`
+### STEP-1
+`git clone git@github.com:saurya25122001/Vantora.git`
 
-### STAP-2
+### STEP-2
 - `cd frontend`
 - `yarn install`
 - `yarn start`
 
-### STAP-3
+### STEP-3
 - `cd backend`
 - `yarn install`
 - create folder `uploads`
@@ -543,5 +540,5 @@ PORT = 4000
 <br/>
 <p align="center"><a href="https://github.com/pattjoshi/Multi_vondor_E_shop#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
 
-
-@copyright by Om Pattjoshi 2023
+Saurya Pratap
+sauryapratap9430@gmail.com
