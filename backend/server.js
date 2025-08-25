@@ -4,32 +4,47 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
 
-// Custom modules
-const connectDatabase = require("./db/Database");
 const ErrorHandler = require("./middleware/error");
+const connectDatabase = require("./db/Database");
 
-// Load env variables
-if (process.env.NODE_ENV !== "PRODUCTION") {
-  require("dotenv").config({ path: "./config/.env" });
-}
+// Routes
+const user = require("./controller/user");
+const shop = require("./controller/shop");
+const product = require("./controller/product");
+const event = require("./controller/event");
+const coupon = require("./controller/coupounCode");
+const payment = require("./controller/payment");
+const order = require("./controller/order");
+const message = require("./controller/message");
+const conversation = require("./controller/conversation");
+const withdraw = require("./controller/withdraw");
 
 const app = express();
 
-// Connect database
+// Load env
+if (process.env.NODE_ENV !== "PRODUCTION") {
+  require("dotenv").config({
+    path: "config/.env",
+  });
+}
+
+// Connect to database
 connectDatabase();
 
-// Middlewares
+// Middleware
 app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
-// Allowed origins
+// Serve uploads
+app.use("/", express.static("uploads"));
+
+// ✅ Proper CORS setup
 const allowedOrigins = [
-  "http://localhost:3000",
-  process.env.FRONTEND_URL
+  "http://localhost:3000",           // local frontend
+  "https://vantora-black.vercel.app" // deployed frontend
 ];
 
-// ✅ CORS middleware including preflight handling
 app.use((req, res, next) => {
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
@@ -45,7 +60,7 @@ app.use((req, res, next) => {
     );
   }
 
-  // Preflight request
+  // Handle preflight request
   if (req.method === "OPTIONS") {
     return res.sendStatus(200);
   }
@@ -53,43 +68,41 @@ app.use((req, res, next) => {
   next();
 });
 
-// Serve static uploads
-app.use("/", express.static("uploads"));
-
 // Test route
 app.get("/test", (req, res) => {
   res.send("Hello World!");
 });
 
-// Routes
-app.use("/api/v2/user", require("./controller/user"));
-app.use("/api/v2/conversation", require("./controller/conversation"));
-app.use("/api/v2/message", require("./controller/message"));
-app.use("/api/v2/order", require("./controller/order"));
-app.use("/api/v2/shop", require("./controller/shop"));
-app.use("/api/v2/product", require("./controller/product"));
-app.use("/api/v2/event", require("./controller/event"));
-app.use("/api/v2/coupon", require("./controller/coupounCode"));
-app.use("/api/v2/payment", require("./controller/payment"));
-app.use("/api/v2/withdraw", require("./controller/withdraw"));
+// API routes
+app.use("/api/v2/user", user);
+app.use("/api/v2/conversation", conversation);
+app.use("/api/v2/message", message);
+app.use("/api/v2/order", order);
+app.use("/api/v2/shop", shop);
+app.use("/api/v2/product", product);
+app.use("/api/v2/event", event);
+app.use("/api/v2/coupon", coupon);
+app.use("/api/v2/payment", payment);
+app.use("/api/v2/withdraw", withdraw);
 
 // Error handler
 app.use(ErrorHandler);
 
-// Start server
-const PORT = process.env.PORT || 8000;
-const server = app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+// Create server
+const server = app.listen(process.env.PORT || 8000, () => {
+  console.log(`Server is running on http://localhost:${process.env.PORT || 8000}`);
 });
 
-// Handle uncaught exceptions
+// Uncaught exceptions
 process.on("uncaughtException", (err) => {
-  console.error(`Uncaught Exception: ${err.message}`);
-  server.close(() => process.exit(1));
+  console.log(`Error: ${err.message}`);
+  console.log("Shutting down the server due to uncaught exception 💥");
 });
 
-// Handle unhandled promise rejections
+// Unhandled promise rejection
 process.on("unhandledRejection", (err) => {
-  console.error(`Unhandled Rejection: ${err.message}`);
-  server.close(() => process.exit(1));
+  console.log(`Shutting down the server due to: ${err.message}`);
+  server.close(() => {
+    process.exit(1);
+  });
 });
