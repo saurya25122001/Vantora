@@ -28,7 +28,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",               // local frontend
-      process.env.FRONTEND_URL               // deployed frontend
+      "https://vantora.vercel.app",               // deployed frontend
     ],
     credentials: true,
   })
