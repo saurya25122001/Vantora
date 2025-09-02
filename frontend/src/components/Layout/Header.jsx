@@ -60,10 +60,16 @@ const Header = ({ activeHeading }) => {
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between ">
           <div>
             <Link to="/">
-              <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
-              />
+   <img
+  src="/new.png"
+  alt="Logo"
+  className="w-35 h-16 object-contain"
+  style={{
+    opacity: 0.9,
+    filter: "drop-shadow(0 0 5px rgba(255,255,255,0.5))",
+  }}
+/>
+
             </Link>
           </div>
           {/*Search box  */}
@@ -234,9 +240,10 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
-                className="mt-3 cursor-pointer"
+                src="/new.png"
+            alt=""
+              className="w-32 h-20 object-contain"
+        
               />
             </Link>
           </div>

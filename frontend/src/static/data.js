@@ -229,13 +229,13 @@ export const categoriesData = [
     title: "Gifts",
     subTitle: "",
     image_Url:
-      "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      "https://images.everydayhealth.com/images/healthy-living/how-to-give-better-gifts-according-to-science-1440x810.jpg?w=1110",
   },
   {
     id: 7,
     title: "Pet Care",
     subTitle: "",
-    image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+    image_Url: "https://www.thewholepetvet.com/blog/wp-content/uploads/2024/04/iStock-1171733307-1-2048x1366.jpg",
   },
   {
     id: 8,

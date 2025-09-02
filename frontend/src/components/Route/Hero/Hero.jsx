@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { Link } from "react-router-dom";
 import styles from "../../../styles/styles";
-
 
 const Hero = () => {
     return (
         <div
-            className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
+            className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat bg-center bg-cover ${styles.noramlFlex}`}
             style={{
-                backgroundImage:
-                    "url(https://themes.rslahmed.dev/rafcart/assets/images/banner-2.jpg)",
+                backgroundImage: `linear-gradient(rgba(255, 253, 240, 0.6), rgba(255, 253, 240, 0.6)), url("/banner.jpg")`,
             }}
         >
             <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
@@ -18,7 +16,7 @@ const Hero = () => {
                 >
                     Best Collection for <br /> home Decoration
                 </h1>
-                <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
+                <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#3d3a3a]">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae,
                     assumenda? Quisquam itaque <br /> exercitationem labore vel, dolore
                     quidem asperiores, laudantium temporibus soluta optio consequatur{" "}
@@ -31,11 +29,9 @@ const Hero = () => {
                         </span>
                     </div>
                 </Link>
-
             </div>
-
         </div>
     )
 }
 
-export default Hero
+export default Hero;
