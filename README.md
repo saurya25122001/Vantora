@@ -176,15 +176,15 @@ The MERN Marketplace application will allow users to become sellers, who can man
 - Video Size is high So, I can not upload it to Github.I upload it to youtube.[Vedo Demo heaar](https://www.youtube.com/watch?v=J7PWBRnEIv8)
 
 ## Sneak Peek of Home Page 🙈 :
-![home](/Users/shauryasingh/Desktop/Vantora/img/h1.png)
+![home](img/h1.png)
 <table>
   <tr>
-    <td><img width="960" alt="image" src="/Users/shauryasingh/Desktop/Vantora/img/h2.png" alt="mockup"/></td>
-    <td><<img width="960" alt="image" src="/Users/shauryasingh/Desktop/Vantora/img/h3.png" alt="mockup"/></td>
+    <td><img width="960" alt="image" src="img/h2.png" alt="mockup"/></td>
+    <td><<img width="960" alt="image" src="img/h3.png" alt="mockup"/></td>
   </tr>
   <tr>
     <td><img width="960" alt="image" src="img/h4.png"alt="mockup"/></td>
-    <td><img width="960" alt="image" src="/Users/shauryasingh/Desktop/Vantora/img/h5.png"alt="mockup"/></td>
+    <td><img width="960" alt="image" src="img/h5.png"alt="mockup"/></td>
   </tr>
 </table>
 
