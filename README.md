@@ -189,93 +189,81 @@ The MERN Marketplace application will allow users to become sellers, who can man
 </table>
 
 ## User Profile Page 👥 :
-![userHome](https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/e3fcdef1-460b-4ed6-bb51-425e6dfe3379)
+![userHome](img/u1.png)
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/57a422bd-123c-4bdf-b961-cbb5bc9c8556"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/e0d8b6d6-ea71-458b-9685-3fa906c4ebf7"></td>
+    <td><img width="960" alt="image" src="img/u2.png"></td>
+    <td><img width="960" alt="image" src="img/u3.png"></td>
   </tr>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/382c23fc-ec18-45a1-99b4-b3f96baf6f9e"></td>
-    <td><img width="958" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/724add12-d3e3-4d62-9ed5-affc41ea5d52"></td>
+    <td><img width="960" alt="image" src="img/u4.png"></td>
+    <td><img width="958" alt="image" src="img/u5.png"></td>
   </tr>
 </table>
 <table>
  <tr>
-    <td><img width="958" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/ce5cfa71-a67f-4931-a069-3921a686d404"></td>
-    <td><img width="954" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/0d3f9978-7d94-45f3-9f0c-1f17fed56639"></td>
+    <td><img width="958" alt="image" src="img/u6.png"></td>
+    <td><img width="954" alt="image" src="img/u7.png"></td>
   </tr>
 </table>
 
 # Product Page ⚙️
-<img width="957" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/60d125e1-c4b5-4ab7-9ae5-ca922f44cd62">
+<img width="957" alt="image" src="img/p1.png">
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/1f3ee05a-162b-41d3-96bf-eb5874fa4313"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/fc53e2ce-8fdc-4fb6-a01b-651206499bbe"></td>
+    <td><img width="960" alt="image" src="img/p2.png"></td>
+    <td><img width="960" alt="image" src="img/p3.png"></td>
   </tr>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/63972ed5-1f58-42c0-b29c-35dcf46f3a92"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/97c54f9e-e3ae-4f34-9afb-fbc58faa7fa9"></td>
+    <td><img width="960" alt="image" src="img/p4.png"></td>
+    <td><img width="960" alt="image" src="img/p5.png"></td>
   </tr>
 </table>
+# 🧾 Receipt
+<img width="960" alt="image" src="img/r1.png">
 <table>
   <tr>
-    <td><img width="958" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/01c44518-e3f3-4af2-8587-1ac61ca2a992"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/71883165-670a-4705-b1b7-de9dc82451da"></td>
+    <td><img width="960" alt="image" src="img/r2.png"></td>
+    <td><img width="956" alt="image" src="img/r3.png"></td>
+  </tr>
+  <tr>
+    <td><img width="959" alt="image" src="img/r4.png"></td>
+    <td><img width="955" alt="image" src="img/r5.png"></td>
   </tr>
 </table>
 
-# 🧾 Receipt
-<img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/370e357d-8248-46fc-8749-37aed7f5efd3">
-<table>
-  <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/43f623b9-cc86-4ead-a478-e18453506662"></td>
-    <td><img width="956" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/6bf3f4f9-379e-41fb-aab4-a05474d98297"></td>
-  </tr>
-  <tr>
-    <td><img width="959" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/f9522152-34e4-4749-a681-a9895bbec8f6"></td>
-    <td><img width="955" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/fd42ea39-b2ff-45d9-8023-0e21ca83ef34"></td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/2af2d6c1-b559-4778-b64c-2108e96f4ca5"></td>
-    <td><img width="956" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/c417337a-b62b-485b-99a8-3078960e125e"></td>
-  </tr>
-</table>
 
 # Seller page 🛍️
-<img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/386b48a1-9139-4b19-be0b-0b86c9cb8ccb">
+<img width="960" alt="image" src="img/s1.png">
 
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/f1c2d498-c192-4cd2-b327-0cef0021e5aa"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/9b9f4dac-7a23-42ed-9cf3-b537a8c6ec4d"></td>
+    <td><img width="960" alt="image" src="img/s2.png"></td>
+    <td><img width="960" alt="image" src="img/s3.png"></td>
   </tr>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/0bb6b5d3-0b1f-4d49-9a55-ea2efad7f37d"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/6551ead3-6231-4cd7-aafa-1efeb2edfc26"></td>
+    <td><img width="960" alt="image" src="img/s4.png"></td>
+    <td><img width="960" alt="image" src="img/s5.png"></td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/5e471d54-6ed7-42ee-be91-129754c193b6"></td>
-    <td><img width="957" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/dbc79486-31cc-4f0e-9097-51625539e2f1"></td>
+    <td><img width="960" alt="image" src="img/s6.png"></td>
+    <td><img width="957" alt="image" src="img/s7.png"></td>
   </tr>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/ad91a058-5b14-4460-8475-6055d1f5cecf"></td>
-    <td><img width="956" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/accc3379-2343-4e49-b963-f7fc5d45fc32"></td>
+    <td><img width="960" alt="image" src="img/s8.png"></td>
+    <td><img width="956" alt="image" src="img/s9.png"></td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/6ae434f9-7226-4b35-85ab-094e66725ef6"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/301b7083-a6ae-4e79-8739-2855a1e7a996"></td>
+    <td><img width="960" alt="image" src="img/s10.png"></td>
+    <td><img width="960" alt="image" src="img/s11.png"></td>
   </tr>
   <tr>
     <td></td>
@@ -285,29 +273,26 @@ The MERN Marketplace application will allow users to become sellers, who can man
 
 |         Mobile View          |         Desktop View          |
 | :--------------------------: | :---------------------------: |
-| <img width="148" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/7b79abf4-a403-40ac-85d4-b487642746ae"> | <img width="955" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/a64bdb4c-cd4d-488c-9823-2511f51baa6c"> |
-| <img width="148" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/ffcf4801-aaf6-481f-aea8-cfc09368d688"> | <img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/8ad3acfd-6f3b-4f8f-bfb4-913adf22adf1"> |
-| <img width="146" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/52a46af4-d48c-493f-9b8f-7c5ebaffd230"> | <img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/5d05cdc5-7935-4f92-a629-4c33ea61f340"> |
+| <img width="148" alt="image" src="img/m1.png"> | <img width="955" alt="image" src="img/m2.png"> |
+| <img width="148" alt="image" src="img/m3.png"> | <img width="960" alt="image" src="img/m4.png"> |
+| <img width="146" alt="image" src="img/m5.png"> | <img width="960" alt="image" src="img/m2.png"> |
 
 # Admin Dashbard 👤
- <img width="960" alt="adminDs" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/df7f3d6c-d429-48a0-b9bc-1673c7532faf">
+ <img width="960" alt="adminDs" src="img/a1.png">
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/544cc86c-64e9-4cf2-b528-b422b4210001"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/2d03dcc8-96f0-4235-b61d-2b1a752d4a93"></td>
+    <td><img width="960" alt="image" src="img/a2.png"></td>
+    <td><img width="960" alt="image" src="img/a3.png"></td>
   </tr>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/e935093c-18be-42b7-9f24-374a655ee71d"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/7b2df4a5-54c2-472b-87e6-62815d7a247d"></td>
+    <td><img width="960" alt="image" src="img/a4.png"></td>
+    <td><img width="960" alt="image" src="img/a5.png"></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/f88da15d-c5e5-4a1d-bd76-ad32aaf6e626"></td>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/9a442db3-1296-48a7-977c-c50bc30bf5aa"></td>
-  </tr>
-  <tr>
-    <td><img width="960" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/afeb4548-7ef0-441e-b418-9335e54c0a05"></td>
+    <td><img width="960" alt="image" src="img/a6.png"></td>
+    <td><img width="960" alt="image" src="img/a7.png"></td>
   </tr>
 </table>
 
@@ -317,7 +302,7 @@ The MERN Marketplace application will allow users to become sellers, who can man
 
 🌟 Introducing MERN Marketplace: A Revolutionary Multi-Vendor Website 🌟
 
-🚀 Dear LinkedIn Network, I am thrilled to announce the completion of my latest project, the MERN Marketplace! 🌟 This dynamic platform brings together buyers and sellers, offering a seamless online shopping experience with a plethora of innovative features.
+🚀 I am thrilled to announce the completion of my latest project, the MERN Marketplace! 🌟 This dynamic platform brings together buyers and sellers, offering a seamless online shopping experience with a plethora of innovative features.
 
 💡 Key Technologies:
 Front-End:
@@ -538,7 +523,7 @@ PORT = 4000
 
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmallTransparentBackground.gif" alt="Animated footer bars" width="100%"/></a></p>
 <br/>
-<p align="center"><a href="https://github.com/pattjoshi/Multi_vondor_E_shop#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
+<p align="center"><a href="https://github.com/saurya25122001/Vantora"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
 
 Saurya Pratap
 sauryapratap9430@gmail.com
